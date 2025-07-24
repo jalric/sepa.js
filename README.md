@@ -65,6 +65,7 @@ info.creditorIBAN = "DE87123456781234567890";
 info.creditorBIC = "XMPLDEM0XXX";
 info.creditorName = "Example LLC";
 info.creditorId = "DE98ZZZ09999999999";
+info.originalCreditorId = "DE98ZZZ09999999999"; //optional, for creditor ID migrations
 info.batchBooking = true; //optional
 doc.addPaymentInfo(info);
 
